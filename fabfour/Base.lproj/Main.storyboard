@@ -12,13 +12,13 @@
         <!--Table View Controller-->
         <scene sceneID="Kgr-dX-dEz">
             <objects>
-                <tableViewController id="5kO-lU-xyU" sceneMemberID="viewController">
+                <tableViewController id="5kO-lU-xyU" customClass="TableViewController" customModule="fabfour" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="BIH-3b-Iqy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="2V6-kG-MYY">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="2V6-kG-MYY">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2V6-kG-MYY" id="dXP-8K-YKf">
@@ -28,8 +28,8 @@
                             </tableViewCell>
                         </prototypes>
                         <connections>
-                            <outlet property="dataSource" destination="5kO-lU-xyU" id="WAy-Er-sZ9"/>
-                            <outlet property="delegate" destination="5kO-lU-xyU" id="Bb1-pv-sgY"/>
+                            <outlet property="dataSource" destination="5kO-lU-xyU" id="d4J-6w-MfI"/>
+                            <outlet property="delegate" destination="5kO-lU-xyU" id="fwq-eh-abb"/>
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="112-rq-1oZ"/>

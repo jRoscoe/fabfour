@@ -10,6 +10,8 @@ import UIKit
 
 class ButtonViewController: UIViewController {
 
+    var clickCounter = 0
+
     override func viewDidLoad() {
         super.viewDidLoad()
 

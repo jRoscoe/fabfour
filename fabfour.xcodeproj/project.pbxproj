@@ -16,6 +16,7 @@
 		63F9BE261F2A6CA800BC57BA /* fabfourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F9BE251F2A6CA800BC57BA /* fabfourUITests.swift */; };
 		AE746E801F2A7F04004A60D0 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE746E7F1F2A7F04004A60D0 /* TableViewController.swift */; };
 		AE746E861F2A8356004A60D0 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE746E851F2A8356004A60D0 /* CloudKit.framework */; };
+		B19FFB561F2A86B00075071A /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19FFB551F2A86B00075071A /* ButtonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		AE746E7F1F2A7F04004A60D0 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		AE746E811F2A80E0004A60D0 /* fabfour.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = fabfour.entitlements; sourceTree = "<group>"; };
 		AE746E851F2A8356004A60D0 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		B19FFB551F2A86B00075071A /* ButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				AE746E811F2A80E0004A60D0 /* fabfour.entitlements */,
 				63F9BE021F2A6CA800BC57BA /* AppDelegate.swift */,
 				63F9BE061F2A6CA800BC57BA /* Main.storyboard */,
+				B19FFB551F2A86B00075071A /* ButtonViewController.swift */,
 				AE746E7F1F2A7F04004A60D0 /* TableViewController.swift */,
 				63F9BE0C1F2A6CA800BC57BA /* Assets.xcassets */,
 				63F9BE0E1F2A6CA800BC57BA /* LaunchScreen.storyboard */,
@@ -285,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B19FFB561F2A86B00075071A /* ButtonViewController.swift in Sources */,
 				63F9BE0B1F2A6CA800BC57BA /* fabfour.xcdatamodeld in Sources */,
 				AE746E801F2A7F04004A60D0 /* TableViewController.swift in Sources */,
 				63F9BE031F2A6CA800BC57BA /* AppDelegate.swift in Sources */,

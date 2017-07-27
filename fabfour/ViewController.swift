@@ -4,7 +4,7 @@
 //
 //  Created by rdadmin on 7/27/17.
 //  Copyright © 2017 Jennifer Roscoe. All rights reserved.
-//
+// Megan Doherty
 
 import UIKit
 

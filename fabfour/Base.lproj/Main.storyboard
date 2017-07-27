@@ -38,10 +38,10 @@
             </objects>
             <point key="canvasLocation" x="160.80000000000001" y="163.26836581709148"/>
         </scene>
-        <!--View Controller-->
+        <!--Button View Controller-->
         <scene sceneID="WxK-yZ-N1r">
             <objects>
-                <viewController id="npl-a4-tho" sceneMemberID="viewController">
+                <viewController id="npl-a4-tho" customClass="ButtonViewController" customModule="fabfour" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="r4J-me-jit"/>
                         <viewControllerLayoutGuide type="bottom" id="sfv-lb-NBw"/>
